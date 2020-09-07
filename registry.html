@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<Title>NCC Music | Registry</Title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="assets/images/icon.png" alt="icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav class="nav" id="nav"> 
+		<label id="button-label" for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<a id="homelink" href="index.html">NCC MUSICAL FESTIVALS</a>
+			<a id="highlight" href="booking.html">Book Online</a>
+			<a href="festivals.html">Festivals</a>
+			<a href="registry.html">Register</a>
+			<a href="about.html">About Us</a>
+			<a href="activities.html">New Activities</a>
+			<a href="accomodations.html">Accomodations</a>
+		</div>
+	</nav>
+
+
+	<section class="imageregister" title="Registy Cover Image: Concert">
+		<div class="cover">
+			<h1>ACCOUNT REGISTRY</h1>
+		</div>
+	</section>
+	
+	<div id="main">
+		<section>
+			<div id="title">
+				<h2>Account Registry</h2>
+			</div>
+				<form class="account-reg">
+					<fieldset>
+						<legend>Account Fill In</legend>
+						<label class="no-pointer" for="fname">First Name:</label><input type="text" id="fname" placeholder="First Name" required autofocus> 
+						<br><br>
+						<label class="no-pointer" for="lname">Last Name:</label><input type="text" id="lname" placeholder="Last Name" required>
+						<br><br>
+						<label class="no-pointer" for="email">Email:</label><input type="text" id="email" placeholder="Email" required>
+						<br><br>
+						<label class="no-pointer" for="dob">Date of Birth:</label><input type="date" id="dob" required>
+						<br><br>
+						<p class="dont-align">We won''t display this!</p><hr>
+							
+						<label class="no-pointer" for="username">Username:</label><input type="text" id="username" placeholder="Username" required>
+						<br><br>
+						<label class="no-pointer" for="password">Password:</label><input type="text" id="password" placeholder="Password" required>
+						<br><br>
+						<p>I would like to recieve monthly newsletters to the email above: <p></p>
+						<input id="checkbox" class="check" type="checkbox" name="newsletter" required>
+						<p>By pressing submit you are agreeing to our Terms and Conditions Agreement.</p>
+						<div class="align-button">
+							<a href="confirm.html" class="button" target="_blank">Submit</a>
+							<br>
+							<br>
+						</div>
+					</fieldset>
+				</form>
+		</section>
+	</div>
+	<br>
+	
+	<footer class="footer">
+		<div class="footer__container main">
+			<h2>Our Contact</h2>
+				<p>Number: +44 1111 1111</p>
+				<p>Email: <a href="mailto:music@nccfest.co.uk">music@nccfest.co.uk</a></p>
+				<p>Parent Company Site: <a href="https://www.nccedu.com/">NCC Education</a></p>
+				<p><a href="https://twitter.com/NCCEducation" target="_blank" accesskey="t"><img id="twitter" src="assets/images/twitter-logo.png" alt="twitter logo"></a> <a href="https://www.facebook.com/NCCEducation" target="_blank" accesskey="f"><img id="facebook" src="assets/images/facebook-logo.png" alt="facebook logo"></a> </p>
+		</div>
+	</footer>
+</body>
+<!--Calling the Jquery worker-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<Title>NCC Sports | Book</Title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="assets/images/icon.png" alt="icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav class="nav" id="nav" aria-label="navigation"> 
+		<label id="button-label" for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<a id="homelink" href="index.html">NCC MUSICAL FESTIVALS</a>
+			<a id="highlight" href="booking.html">Book Online</a>
+			<a href="festivals.html">Festivals</a>
+			<a href="registry.html">Register</a>
+			<a href="about.html">About Us</a>
+			<a href="activities.html">New Activities</a>
+			<a href="accomodations.html">Accomodations</a>
+		</div>
+	</nav>
+
+	<section class="imagebook" title="Booking Cover Image: Guitar player">
+		<div class="cover">
+			<h1>BOOKINGS</h1>
+		</div>
+	</section>
+
+	<div id="main">
+		<section>
+			<div id="title">
+				<h2>Online Booking Form</h2>
+			</div>
+			<br>
+
+			<form class="booking-form">
+				<fieldset>
+					<legend>Information to be filled in.</legend>
+					<br>
+					<label class="label" for="first-name">First Name: </label><input class="label" id="first-name" type="text" placeholder="First Name" autofocus required>
+					<br> <br>
+					<label class="label" for="second-name">Second Name: </label><input class="label" id="second-name" type="text" placeholder="Second Name" required>
+					<br> <br>
+					<label class="label" for="email">Email Address: </label><input class="label" id="email" type="text" placeholder="Email" required>
+					<br><br>
+					<label class="label" for="location">Location: </label><input class="label" id="location" type="text" placeholder="Location" required>
+					<br><br>
+					<label class="label" for="date-range-start">Date from: </label><input class="label" id="date-range-start" type="date" required>
+					<br><br>
+					<label class="label" for="date-range-end">Date till: </label><input class="label" id="date-range-end" type="date" required>
+					<br><br>
+					<p>We will send the available festivals to your email based on the range selected above.</p>
+					<br><br>
+					<div class="align-button">
+					<a href="confirm.html" class="button" target="_blank">Submit</a>
+					<br>
+					<br>
+					</div>
+				</fieldset>
+			</form>	
+		</section>
+	</div>
+
+	<br>
+	<footer class="footer">
+		<div class="footer__container main">
+			<h2>Our Contact</h2>
+				<p>Number: +44 1111 1111</p>
+				<p>Email: <a href="mailto:music@nccfest.co.uk">music@nccfest.co.uk</a></p>
+				<p>Parent Company Site: <a href="https://www.nccedu.com/">NCC Education</a></p>
+				<p><a href="https://twitter.com/NCCEducation" target="_blank" accesskey="t"><img id="twitter" src="assets/images/twitter-logo.png" alt="twitter logo"></a> <a href="https://www.facebook.com/NCCEducation" target="_blank" accesskey="f"><img id="facebook" src="assets/images/facebook-logo.png" alt="facebook logo"></a> </p>
+		</div>
+	</footer>
+</body>
+<!--Calling the Jquery worker-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
